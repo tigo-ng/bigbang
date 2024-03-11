@@ -97,6 +97,7 @@
 		493AB01D2B9F5AC800156120 /* BigBang */ = {
 			isa = PBXGroup;
 			children = (
+				49D89DEB2B9F5D7500E33812 /* Stage-1 */,
 				493AB01E2B9F5AC800156120 /* BigBangApp.swift */,
 				493AB0202B9F5AC800156120 /* ContentView.swift */,
 				493AB0222B9F5AC800156120 /* Item.swift */,
@@ -130,6 +131,13 @@
 				493AB03E2B9F5ACA00156120 /* BigBangUITestsLaunchTests.swift */,
 			);
 			path = BigBangUITests;
+			sourceTree = "<group>";
+		};
+		49D89DEB2B9F5D7500E33812 /* Stage-1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Stage-1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
