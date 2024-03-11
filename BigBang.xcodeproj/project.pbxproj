@@ -15,6 +15,7 @@
 		493AB0332B9F5ACA00156120 /* BigBangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0322B9F5ACA00156120 /* BigBangTests.swift */; };
 		493AB03D2B9F5ACA00156120 /* BigBangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB03C2B9F5ACA00156120 /* BigBangUITests.swift */; };
 		493AB03F2B9F5ACA00156120 /* BigBangUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB03E2B9F5ACA00156120 /* BigBangUITestsLaunchTests.swift */; };
+		49D89DEA2B9F5CFF00E33812 /* Bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D89DE92B9F5CFF00E33812 /* Bot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		493AB0382B9F5ACA00156120 /* BigBangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigBangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493AB03C2B9F5ACA00156120 /* BigBangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBangUITests.swift; sourceTree = "<group>"; };
 		493AB03E2B9F5ACA00156120 /* BigBangUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBangUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49D89DE92B9F5CFF00E33812 /* Bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		493AB01D2B9F5AC800156120 /* BigBang */ = {
 			isa = PBXGroup;
 			children = (
+				49D89DE82B9F5CF500E33812 /* Core */,
 				493AB01E2B9F5AC800156120 /* BigBangApp.swift */,
 				493AB0202B9F5AC800156120 /* ContentView.swift */,
 				493AB0222B9F5AC800156120 /* Item.swift */,
@@ -130,6 +133,14 @@
 				493AB03E2B9F5ACA00156120 /* BigBangUITestsLaunchTests.swift */,
 			);
 			path = BigBangUITests;
+			sourceTree = "<group>";
+		};
+		49D89DE82B9F5CF500E33812 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				49D89DE92B9F5CFF00E33812 /* Bot.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				493AB0212B9F5AC800156120 /* ContentView.swift in Sources */,
+				49D89DEA2B9F5CFF00E33812 /* Bot.swift in Sources */,
 				493AB0232B9F5AC800156120 /* Item.swift in Sources */,
 				493AB01F2B9F5AC800156120 /* BigBangApp.swift in Sources */,
 			);
